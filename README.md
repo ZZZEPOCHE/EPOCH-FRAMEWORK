@@ -1,4 +1,4 @@
-# EPOCHFRAMEWORK-README.md
+# EPOCH-FRAMEWORK-README.md
 
 **Operator-Centric External Governance for LLM and Multimodal Systems**
 
