@@ -14,6 +14,24 @@ This tool is released under the **MIT License** for defensive and research purpo
 It is designed to detect and block harmful prompts, jailbreaks, and sensitive data leakage.  
 It is **not** intended to assist in creating attacks or bypassing safety systems.
 
+# WARNING: "This version is explicitly not intended for use in the European Union or EEA. It is not designed to meet EU AI Act or GDPR requirements. Any use in the EU/EEA is entirely at the user's own risk and responsibility."
+
+Legal & Compliance 
+© ZZZ_EPOCHE
+**License**: MIT License (see [LICENSE](LICENSE) file)
+EU AI Act & GDPR:
+This edition is not certified as fully compliant. Users in the EU/EEA must perform their own conformity assessment and assume full liability. Users in the EU/EEA: Please ensure full regulatory compliance before deployment.
+USA:
+Users are solely responsible for compliance with all U.S. laws.
+Rest of the World:
+Users bear full responsibility for local legal compliance.
+Static Release:
+This is a final frozen version. No further updates will be provided.
+
+**Code Name:** EPOCH-FRAMEWORK
+**Version:** 1.0 (Static Release – April 2026)  
+**Author:** ZZZ_EPOCHE  
+
 ## Abstract
 This framework implements external governance layers for large language models and multimodal systems using only public APIs (Grok primary, with fallbacks for other providers).  
 It combines fast local checks, image text extraction, history/context awareness, toxicity scanning, structured output enforcement, and self-correcting behavior.
