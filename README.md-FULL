@@ -95,9 +95,6 @@ All decisions are auditable and include explicit compliance mappings.
 
 **Common Issues & Solutions**
 
-- **"EPOCH_API_KEY is not set"**  
-  Export the key before running: `export EPOCH_API_KEY=your_key`
-
 - **Grok judge fails**  
   Check that `GROK_API_KEY` is set and has sufficient quota.
 
