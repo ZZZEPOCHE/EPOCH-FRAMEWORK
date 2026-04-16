@@ -1,7 +1,6 @@
 # EPOCH-FRAMEWORK-README.md
 
 **Operator-Centric External Governance for LLM and Multimodal Systems**
-
 A lightweight, hybrid (local + LLM), external safety guard that operates exclusively through public APIs.  
 The framework enforces structured invariants on model outputs without modifying model weights, while preserving human agency, auditability, and regulatory compliance.
 
@@ -13,6 +12,27 @@ All analysis and code are based solely on publicly available tools and APIs.
 This tool is released under the **MIT License** for defensive and research purposes only.  
 It is designed to detect and block harmful prompts, jailbreaks, and sensitive data leakage.  
 It is **not** intended to assist in creating attacks or bypassing safety systems.
+
+**WARNING: "This version is explicitly not intended for use in the European Union or EEA. It is not designed to meet EU AI Act or GDPR requirements. Any use in the EU/EEA is entirely at the user's own risk and responsibility."**
+
+Legal & Compliance 
+© ZZZ_EPOCHE
+License: MIT License
+EU AI Act & GDPR:
+This edition includes EU safeguards (PII redaction, transparency notices, stricter thresholds). However, it is not certified as fully compliant. Users in the EU/EEA must perform their own conformity assessment and assume full liability. Users in the EU/EEA: Please ensure full regulatory compliance before deployment.
+USA:
+Users are solely responsible for compliance with all U.S. laws.
+Rest of the World:
+Users bear full responsibility for local legal compliance.
+Static Release:
+This is a final frozen version. No further updates will be provided.
+
+**Code Name:** EPOCH-FW-v1.0
+**Version:** 1.0 (Static Release – April 2026)  
+**Author:** ZZZ_EPOCHE  
+**Date of Creation:** 2026-04-15
+
+---
 
 ## Abstract
 This framework implements external governance layers for large language models and multimodal systems using only public APIs (Grok primary, with fallbacks for other providers).  
