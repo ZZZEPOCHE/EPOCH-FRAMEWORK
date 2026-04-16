@@ -60,7 +60,6 @@ All decisions are auditable and include explicit compliance mappings.
 - Self-correcting on failures with graceful degradation
 - Tamper-proof audit logs with hash chaining
 - Compliance mappings (EU AI Act + OWASP LLM Top 10) in every log
-- API key authentication + strong input validation
 - Prometheus metrics + structured logging with correlation IDs
 - Interactive CLI mode with after-run choices (continue / exit / help)
 - Built-in test suite with realistic adversarial and benign cases
@@ -69,17 +68,12 @@ All decisions are auditable and include explicit compliance mappings.
 - This is a **single-file prototype**. Scaling and team collaboration are harder compared to multi-file modular projects.
 - Toxicity scanner is hybrid (regex + LLM) but not as deep as dedicated safety models.
 - No full Redis caching or advanced rate limiting is implemented in this version.
-- Image safety is currently limited to text extraction (no native vision model safety).
 - Structured output auto-correction is functional but basic (placeholder retry logic).
 - **No further improvements will be made** to this codebase. It is released as-is for anyone to fork and extend.
-
 
 ## Troubleshooting
 
 **Common Issues & Solutions**
-
-- **"EPOCH_API_KEY is not set"**  
-  Export the key before running: `export EPOCH_API_KEY=your_key`
 
 - **Grok judge fails**  
   Check that `GROK_API_KEY` is set and has sufficient quota.
